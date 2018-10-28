@@ -1,0 +1,23 @@
+body{
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  }
+
+.content{
+  display: flex;
+  flex-direction: column;
+  background-color: coral;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+
+
+}
+.likeCount{
+  text-align: left;
+}
+
+h1{color: pink;}

@@ -12,14 +12,18 @@ require __DIR__.'/functions.php';
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title></title>
+        <title>Fake-News</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
      <?php
 
+       // code...
+
+
       foreach ($posts as $post):?>
+
 
 
 
@@ -27,7 +31,11 @@ require __DIR__.'/functions.php';
         <div class="content">
         <h2><?php echo $post['title']?></h2>
           <p><?php echo $post['content']?></p>
-
+          <?php foreach ($authors as $author) :?>
+          <p><?php if ($post['author'] === $author['id']) {
+                echo $author['name'];
+          }?>
+        <?php endforeach; ?>
             <div class="likeCount">
               <p><?php echo "Likes: " . $post['likeCount'];?></p>
                 <p><?php echo $post['publishedDate'];?></p>
@@ -41,6 +49,7 @@ require __DIR__.'/functions.php';
 
 
       </article>
+
     <?php endforeach; ?>
 
 
