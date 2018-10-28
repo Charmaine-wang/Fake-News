@@ -3,6 +3,8 @@ declare(strict_types=1);
 require __DIR__.'/functions.php';
 // This is the file where you can keep your data arrays such as articles and
 // authors.
+$currentDate = date('l, F d, Y');
+
 
 $authors = [
 

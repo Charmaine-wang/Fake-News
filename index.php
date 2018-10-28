@@ -13,19 +13,36 @@ require __DIR__.'/functions.php';
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title></title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
      <?php
+
       foreach ($posts as $post):?>
+
+
+
       <article>
+        <div class="content">
         <h2><?php echo $post['title']?></h2>
           <p><?php echo $post['content']?></p>
-            <p><?php echo "Likes: " . $post['likeCount'];?></p>
 
-        <?php endforeach; ?>
+            <div class="likeCount">
+              <p><?php echo "Likes: " . $post['likeCount'];?></p>
+                <p><?php echo $post['publishedDate'];?></p>
+
+        </div>
+
+
+
+      </div>
+
+
 
       </article>
+    <?php endforeach; ?>
+
 
 
 

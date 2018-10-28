@@ -1,0 +1,12 @@
+body{
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  }
+
+
+.likeCount{
+  text-align: left;
+}
