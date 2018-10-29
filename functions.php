@@ -7,14 +7,3 @@
       return strtotime($a['publishedDate']) < strtotime($b['publishedDate']);
   }
   usort($posts, 'sortByDate');
-  
-
-  function getName(int $searchId, array $authors): string {
-          foreach ($authors as $author) {
-                  $id = $author ['id'];
-                      if ($id == $searchId) {
-                          return $author ['name'];
-                      }
-          }
-
-  };

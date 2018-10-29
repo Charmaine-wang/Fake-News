@@ -4,11 +4,6 @@ Fake News assignment
 **Installation instructions**
 -Clone repository
 
-**Files**
--data.PHP
--functions.PHP
--index.PHP
--style.css
 
 #ASSIGNMENT
 The news feed items should contain:
@@ -33,3 +28,9 @@ The news feed author items should contain the following data:
 - Loops (for, while or foreach)
 - Concatenation
 - Output (echo, print etc.)
+
+**FILES**
+- data.PHP
+- functions.PHP
+- index.PHP
+- style.css
