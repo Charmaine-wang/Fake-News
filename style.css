@@ -1,22 +1,56 @@
 body{
-  background-color: aqua;
+  background-color: azure;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 50px;
-
   }
 
+/*navbar*/
+
+.nav-item{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
+  font-style: normal;
+  }
+
+.nav-link{
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  background: #b3fd02;
+  padding: 10px;
+  color: white;
+  }
+
+.nav-link:hover{
+  color: darkturquoise;}
+
+
+/*post*/
 .content{
   display: flex;
   flex-direction: column;
-  background-color: coral;
-  margin: 20px;
+  background: #e9d4fd;
+  margin: 10px;
   text-align: center;
-  padding: 40px;
-
-
+  padding: 50px;
 }
+
+.content h2{
+  color: deeppink;
+  text-align:center;
+  }
+
+p{
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
+  }
+
 .likeCount{
-  text-align: left;
-}
+  display: flex;
+
+  }
