@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-
+  // Data array containing authors names and user IDs
 $authors = [
 
         ['id' => 1,
@@ -29,7 +29,7 @@ $authors = [
       ]
     ];
 
-
+  // Data array containing information and content
 $posts = [
  [
   'author' => 1,

@@ -8,30 +8,30 @@ body{
 /*navbar*/
 
 .nav-item{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-background-color: aliceblue;
-position: sticky;
-top: 0;
-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: aliceblue;
+  position: sticky;
+  top: 0;
+  width: 100%;
   }
 
 .nav-link{
-
   margin: 30px;
   color: deeppink;
   padding: 10px;
   font-weight: bold;
   text-decoration: none;
   }
-.nav-link a{font-weight: bold;}
+.nav-link a{
+  font-weight: bold;}
 
 .nav-link:hover{
   color: darkturquoise;}
 
 
-/*post*/
+ /*post*/
 .content{
   display: flex;
   flex-direction: column;
