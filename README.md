@@ -25,22 +25,18 @@ The news feed author items should contain the following data:
 - Output (echo, print etc.)
 
 
-**Installation instructions**
+## Installation instructions
 -Clone down the project to you computer:
 --$ git clone https://github.com/Charmaine-wang/Fake-News.git
 -Start your server
 -Open the index.php file in you favorite browser.
 -Click around and see the magic that I've created.
 
-**FILES**
-- data.PHP
-- functions.PHP
-- index.PHP
-- style.css
 
-**Features**
+### Features
 Sort by: date.
 
-**Tested**
+## Tested 
 - Rebecca Klaening
 - Lovisa Hallgren
+- Isa Areschoug
