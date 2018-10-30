@@ -8,21 +8,22 @@ body{
 /*navbar*/
 
 .nav-item{
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  flex-direction: row;
-  padding: 10px;
-  font-style: normal;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: aliceblue;
+position: sticky;
+top: 0;
+width: 100%;
   }
 
 .nav-link{
-  display: flex;
-  flex-direction: row;
+
   margin: 30px;
-  background: #b3fd02;
+  color: deeppink;
   padding: 10px;
-  color: white;
+
+  text-decoration: none;
   }
 
 .nav-link:hover{

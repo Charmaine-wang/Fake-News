@@ -1,6 +1,6 @@
 # Fake-News
 
-**ASSIGNMENT**
+## ASSIGNMENT
 The news feed items should contain:
 
 - Title
@@ -14,7 +14,7 @@ The news feed author items should contain the following data:
 - ID
 - Full name
 
-**The project should use the following PHP functionality:**
+### The project should use the following PHP functionality:
 
 - Variables
 - Multiple data types
@@ -42,3 +42,5 @@ The news feed author items should contain the following data:
 Sort by: date.
 
 **Tested**
+- Rebecca Klaening
+- Lovisa Hallgren

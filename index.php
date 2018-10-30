@@ -45,10 +45,10 @@ require __DIR__.'/functions.php';
         <h2><?php echo $post['title']?></h2>
           <p><?php echo $post['content']?></p>
           <?php foreach ($authors as $author) :?>
-          <h4><?php if ($post['author'] === $author['id']) {
-                echo $author['name'];
-          }
-        endforeach; ?></h4>
+            <?php if ($post['author'] === $author['id']): ?>
+              <h4><?php echo $author['name']; ?></h4>
+          <?php endif; ?>
+        <?php endforeach; ?>
 
         <p><?php echo $post['publishedDate'];?></p>
 
