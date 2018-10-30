@@ -9,11 +9,12 @@
     <body>
       <!---navbar-->
       <nav class="nav-item">
-        <a class ="nav-link" href="">Märta Göransson</a>
-        <a class ="nav-link" href="">Karin Sten</a>
-        <a class ="nav-link" href="">Bert Karlsson</a>
-        <a class ="nav-link" href="">Kerstin Svenning</a>
-        <a class ="nav-link" href="">Lars-Olof Gran</a>
+        <a class ="nav-link" href="index.php">Fake-News</a>
+        <a class ="nav-link" href="marta.php">Märta Göransson</a>
+        <a class ="nav-link" href="karin.php">Karin Sten</a>
+        <a class ="nav-link" href="bert.php">Bert Karlsson</a>
+        <a class ="nav-link" href="kerstin.php">Kerstin Svenning</a>
+        <a class ="nav-link" href="lars.php">Lars-Olof Gran</a>
         </nav>
       </div> <!---navbar-collapse -->
     </nav> <!--navbar-->

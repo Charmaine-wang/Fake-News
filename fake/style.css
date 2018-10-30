@@ -1,13 +1,12 @@
-body{
+body {
   background-color: azure;
   display: flex;
   flex-direction: column;
   padding: 50px;
-  }
+}
 
 /*navbar*/
-
-.nav-item{
+.nav-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -15,24 +14,26 @@ body{
   position: sticky;
   top: 0;
   width: 100%;
-  }
+}
 
-.nav-link{
+.nav-link {
   margin: 30px;
   color: deeppink;
   padding: 10px;
   font-weight: bold;
   text-decoration: none;
-  }
-.nav-link a{
-  font-weight: bold;}
+}
 
-.nav-link:hover{
-  color: darkturquoise;}
+.nav-link a {
+  font-weight: bold;
+}
 
+.nav-link:hover {
+  color: darkturquoise;
+}
 
- /*post*/
-.content{
+/*post*/
+.content {
   display: flex;
   flex-direction: column;
   background: #e9d4fd;
@@ -41,18 +42,17 @@ body{
   padding: 50px;
 }
 
-.content h2{
+.content h2 {
   color: deeppink;
-  text-align:center;
-  }
+  text-align: center;
+}
 
-p{
+p {
   text-align: center;
   font-family: monospace;
   font-size: 16px;
-  }
+}
 
-.likeCount{
+.likeCount {
   display: flex;
-
-  }
+}

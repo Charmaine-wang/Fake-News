@@ -4,28 +4,34 @@ declare(strict_types=1);
   // Data array containing authors names and user IDs
 $authors = [
 
-        ['id' => 1,
-        'name' => ' Märta Göransson ',
-        'article' => ['Måndag', 'Fredag']
-        ],
+  [
+  'id' => 1,
+  'name' => 'Märta Göransson',
+  'article' => ['Måndag', 'Fredag']
+  ],
 
-        ['id' => 2 ,
-        'name' => ' Karin Sten ',
-        'article' => ['Tisdag', 'Lördag']
-        ],
+  [
+  'id' => 2 ,
+  'name' => 'Karin Sten',
+  'article' => ['Tisdag', 'Lördag']
+  ],
 
-        ['id' => 3 ,
-        'name' => ' Bert Karlsson ',
-        'article' => ['Onsdag', 'Söndag']
-        ],
+  [
+  'id' => 3 ,
+  'name' => 'Bert Karlsson',
+  'article' => ['Onsdag', 'Söndag']
+  ],
 
-        ['id' => 4 ,
-        'name' => ' Kerstin Svenning ',
-        'article' => ['Torsdag', 'Summer']
-        ],
-        ['id' => 5 ,
-        'name' => ' Lars-Olof Gran ',
-        'article' => ['Winter', 'Weekend']
+  [
+  'id' => 4 ,
+  'name' => 'Kerstin Svenning',
+  'article' => ['Torsdag', 'Summer']
+  ],
+
+  [
+  'id' => 5 ,
+  'name' => 'Lars-Olof Gran',
+  'article' => ['Winter', 'Weekend']
       ]
     ];
 
