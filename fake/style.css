@@ -6,7 +6,7 @@ body {
 }
 
 /*navbar*/
-.nav-item {
+form {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.nav-link {
+.nav-link, button {
   margin: 30px;
   color: deeppink;
   padding: 10px;
@@ -24,11 +24,7 @@ body {
   text-decoration: none;
 }
 
-.nav-link a {
-  font-weight: bold;
-}
-
-.nav-link:hover {
+button:hover {
   color: darkturquoise;
 }
 

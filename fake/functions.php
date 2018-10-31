@@ -1,7 +1,6 @@
 <?php
   declare(strict_types=1);
   // Function below sorts the posts in "data.php" by date.
-  require __DIR__.'/data.php';
 
   /**
    * sortDates Callback function that is used for uSort, sorts two dates at a time
@@ -11,8 +10,8 @@
    */
     function sortByDate ($a, $b) {
       return strtotime($a['publishedDate']) < strtotime($b['publishedDate']);
-  }
-  usort($posts, 'sortByDate');
+
+}
 
   /**
    * getUser Fetches a user's data array using a unique userId
@@ -22,12 +21,19 @@
    */
 
    // a function to search for the authors name .
-   function getName(int $searchId, array $authors): string {
+   function getName(string $searchId, array $authors): string {
    		foreach ($authors as $author) {
-   				$id = $author ['id'];
+   				$id = $author ['name'];
    					if ($id == $searchId) {
    						return $author ['name'];
    					}
    		}
 
    };
+
+function getPost(array $items, string $author): array{
+  $items = array_filter($items, function($item) use($author){
+    return $item['author'] === $author;
+});
+  return $items;
+};
